@@ -29,11 +29,11 @@ jobs:
         run: terraform validate
         working-directory: ./TerraformVPC
       - name: Terraform Plan
-        id: validate
+        id: plan
         run: terraform plan
         working-directory: ./TerraformVPC  
       - name: Terraform apply
-        id: validate
+        id: apply
         run: terraform apply
         working-directory: ./TerraformVPC    
 
