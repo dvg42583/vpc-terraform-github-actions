@@ -12,7 +12,7 @@ env:
 
 
 jobs:
-  build-infra: terraform-infra
+  build-infra:
     name: terraform-ci-cd
     runs-on: ubuntu-latest
     steps:
